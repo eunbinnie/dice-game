@@ -1,11 +1,7 @@
 import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <>
-    <p id="hello" className="title">
-      안녕 리액트!
-    </p>
-    <p>리액트!</p>
-  </>
-);
+
+root.render(<App />);
